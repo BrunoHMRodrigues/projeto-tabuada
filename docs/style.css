@@ -17,7 +17,7 @@ header {
     background-size: 10vw;
     border: 0.3vw solid rgb(167, 222, 226);
 
-    padding: 10px;
+    padding: 1vh;
     
 
 }
@@ -31,4 +31,15 @@ header {
     margin-top: 0;
     margin-bottom: 0; 
     
+}
+
+#container {
+    width: 80vw;
+    height: 65vh;
+
+    margin: auto;
+    margin-top: 7vh;
+
+    background-color: rgb(150, 197, 228);
+    border: 0.3vw solid rgb(167, 222, 226);
 }
