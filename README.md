@@ -1,2 +1,3 @@
 # projeto-tabuada
-página para treino de tabuada
+
+Criação de uma página para que crianças possam treinar tabuada.
