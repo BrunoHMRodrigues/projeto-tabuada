@@ -54,6 +54,15 @@ header {
 
     /* background-color: white; */
 }
+#container-resume-tabuada {
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+    margin-left: 3vw;
+
+}
+
+
 #user-interaction {
     position: absolute;
     display: inline-block;
