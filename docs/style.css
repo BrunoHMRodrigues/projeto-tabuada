@@ -34,6 +34,7 @@ header {
 }
 
 #container {
+    position: relative;
     width: 80vw;
     height: 65vh;
 
@@ -42,4 +43,24 @@ header {
 
     background-color: rgb(150, 197, 228);
     border: 0.3vw solid rgb(167, 222, 226);
+}
+
+#resume-taboada {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    height: 90%;
+    margin: 1.25%;
+
+    /* background-color: white; */
+}
+#user-interaction {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+    margin: 1.25%;
+    
+
+    /* background-color: white; */
 }
