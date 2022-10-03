@@ -18,8 +18,6 @@ header {
     border: 0.3vw solid rgb(167, 222, 226);
 
     padding: 1vh;
-    
-
 }
 #header-page {
     color: rgb(24, 23, 110);
@@ -90,8 +88,8 @@ header {
     margin: auto;
     margin-top: 40%;
 
-    background-color: #9bafd9;
-    border: 0.4vw solid rgb(167, 222, 226);
+    background-color: #80bfe4;
+    border: 0.4vw solid #103783;;
 }
 
 #container-input {
@@ -119,5 +117,23 @@ header {
     color: white;
 
     font-size: 1vw;
+    font-weight: 900;
+}
+
+#footer-page {
+    width: 100vw;
+    height: 3vh;
+    margin-top: 10vh;
+    margin-left: 0;
+
+    background-image:  url(./images/background-numbers.jpg);
+    background-size: 10vw;
+    border: 0.3vw solid rgb(167, 222, 226);
+
+    padding: 1vh;
+
+    text-align: center;
+    color: rgb(24, 23, 110);
+    font-size: 1.4vw;
     font-weight: 900;
 }
