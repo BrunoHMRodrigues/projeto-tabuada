@@ -20,7 +20,8 @@ header {
     padding: 1vh;
 }
 #header-page {
-    color: rgb(24, 23, 110);
+    color: rgb(95, 228, 155);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     text-align: center;
     font-size: 2.4vw;
     font-weight: 900;
@@ -34,7 +35,7 @@ header {
 
 #container {
     position: relative;
-    width: 60vw;
+    width: 50vw;
     height: 65vh;
 
     margin: auto;
@@ -99,19 +100,23 @@ header {
 }
 #answer-container {
     width: 40%;
+    height: 4vh;
 
     border: 0.2vw solid black;
     border-radius: 5%;    
 
+    font-size: 0.8vw;
+    font-weight: 900;
     text-align: center;
 }
 #button-verify {
     display: block;
-    width: 20%;
-    height: 6%;
+    width:max-content;
+    height: max-content;
+    padding: 0.3vw;
     
     margin: auto;
-    margin-top: 5%;
+    margin-top: 12%;
 
     background-color: rgb(49, 177, 49);
     color: white;
@@ -133,7 +138,7 @@ header {
     padding: 1vh;
 
     text-align: center;
-    color: rgb(24, 23, 110);
+    color: black;
     font-size: 1.4vw;
     font-weight: 900;
 }
