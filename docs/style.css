@@ -1,0 +1,144 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+
+    background-image: url(./images/background-numbers2.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    margin-top: 0;
+    margin-left: 0;
+
+    background-image:  url(./images/background-numbers.jpg);
+    background-size: 10vw;
+    border: 0.3vw solid rgb(167, 222, 226);
+
+    padding: 1vh;
+}
+#header-page {
+    color: rgb(95, 228, 155);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.4vw;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+
+    margin-top: 0;
+    margin-bottom: 0; 
+    
+}
+
+
+#container {
+    position: relative;
+    width: 50vw;
+    height: 65vh;
+
+    margin: auto;
+    margin-top: 7vh;
+
+    background-color: rgb(150, 197, 228);
+    background-image: url(./images/background-container.jpg);
+    background-size: 100vh;
+    border: 0.6vw solid #103783;
+}
+
+#resume-tabuada {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    height: 90%;
+    margin: 1.25%;
+
+    /* background-color: white; */
+}
+#container-resume-tabuada {
+    font-size: 2.2vw;
+    font-weight: 900;
+    color: #103783;
+    margin-left: 9vw;
+    margin-top: 13vh;
+
+}
+
+
+#user-interaction {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+    margin: 1.25%;  
+
+    /* background-color: white; */
+}
+#current-calculation {
+    width: max-content;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vh;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+
+    margin: auto;
+    margin-top: 40%;
+
+    background-color: #80bfe4;
+    border: 0.4vw solid #103783;;
+}
+
+#container-input {
+    text-align: center;
+    height: 2vh;
+    margin-top: 15%;
+}
+#answer-container {
+    width: 40%;
+    height: 4vh;
+
+    border: 0.2vw solid black;
+    border-radius: 5%;    
+
+    font-size: 0.8vw;
+    font-weight: 900;
+    text-align: center;
+}
+#button-verify {
+    display: block;
+    width:max-content;
+    height: max-content;
+    padding: 0.3vw;
+    
+    margin: auto;
+    margin-top: 12%;
+
+    background-color: rgb(49, 177, 49);
+    color: white;
+
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+#footer-page {
+    width: 100vw;
+    height: 3vh;
+    margin-top: 10vh;
+    margin-left: 0;
+
+    background-image:  url(./images/background-numbers.jpg);
+    background-size: 10vw;
+    border: 0.3vw solid rgb(167, 222, 226);
+
+    padding: 1vh;
+
+    text-align: center;
+    color: black;
+    font-size: 1.4vw;
+    font-weight: 900;
+}
